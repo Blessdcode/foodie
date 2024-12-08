@@ -10,5 +10,12 @@ export default {
       type: 'string',
       title: 'Category Name',
     }),
+    defineField({
+      name: 'imageUrl',
+      title: 'image',
+      type: 'image',
+      options: {hotspot: true},
+     
+    }),
   ],
 }
